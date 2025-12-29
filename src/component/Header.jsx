@@ -34,7 +34,7 @@ const Header = () => {
                 z-50 
                 w-48 md:w-auto
             `}>
-                <li><Link to="/" className="text-gray-800 hover:text-blue-600 font-medium">Work</Link></li>
+                <li><Link to="/work" className="text-gray-800 hover:text-blue-600 font-medium">Work</Link></li>
                 <li><Link to="/blog" className="text-gray-800 hover:text-blue-600 font-medium">Blog</Link></li>
                 <li><Link to="/contact" className="text-gray-800 hover:text-blue-600 font-medium">Contact</Link></li>
             </ul>

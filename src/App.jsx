@@ -3,7 +3,8 @@ import Dashboard from './pages/Dashboard'
 import Recent_post from './pages/Recent_post'
 import FeatureWork from './pages/FeatureWork'
 import Footer from './component/Footer'
-import Blog from './pages/blog'
+import Blog from './pages/Blog'
+import Work from './pages/Work'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <FeatureWork />
           </>
         } />
+        <Route path="/work" element={<Work />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
       <Footer />
