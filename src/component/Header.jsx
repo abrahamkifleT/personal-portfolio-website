@@ -24,7 +24,7 @@ const Header = () => {
             <ul className={`
                 ${isMenuOpen ? 'flex' : 'hidden'} 
                 md:flex flex-col md:flex-row 
-                absolute md:static top-16 right-5 
+                absolute md:static top-10 right-5 
                 bg-white md:bg-transparent 
                 shadow-lg md:shadow-none 
                 p-5 md:p-0 
