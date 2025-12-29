@@ -3,7 +3,7 @@ import React from 'react'
 const Recent_post = () => {
     return (
         <div className='bg-blue-100 py-12 mt-12'> {/* Added background color and vertical spacing */}
-            <div className='container mx-auto px-6'> {/* Matches Dashboard container */}
+            <div className='container mx-auto px-6 md:px-20'> {/* Matches Dashboard alignment */}
 
                 <div className='flex items-center justify-between mb-6'>
                     <p className='text-xl font-semibold'>Recent Post</p>
