@@ -5,6 +5,7 @@ import FeatureWork from './pages/FeatureWork'
 import Footer from './component/Footer'
 import Blog from './pages/Blog'
 import Work from './pages/Work'
+import Contact from './pages/Contact'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         } />
         <Route path="/work" element={<Work />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>
