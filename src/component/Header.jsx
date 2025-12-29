@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,9 +34,9 @@ const Header = () => {
                 z-50 
                 w-48 md:w-auto
             `}>
-                <li><a href="">Work</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
+                <li><Link to="/" className="text-gray-800 hover:text-blue-600 font-medium">Work</Link></li>
+                <li><Link to="/blog" className="text-gray-800 hover:text-blue-600 font-medium">Blog</Link></li>
+                <li><Link to="/contact" className="text-gray-800 hover:text-blue-600 font-medium">Contact</Link></li>
             </ul>
         </header>
     )
